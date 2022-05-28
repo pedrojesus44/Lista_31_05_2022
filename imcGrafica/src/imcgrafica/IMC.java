@@ -48,7 +48,7 @@ public class IMC extends JFrame {
                         exibir.setVisible(true);
                         exibir.setText("O seu IMC é de: " + ps + " e você está abaixo do peso.");
                     }
-                    else if ((ps >= 18.5) && (ps <= 29.99)) {
+                    else if ((ps >= 18.5) && (ps <= 24.99)) {
                         exibir.setVisible(true);
                         exibir.setText("O seu IMC é de: " + ps + " e você está no seu peso ideal.");
                     }
